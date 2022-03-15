@@ -1,0 +1,13 @@
+FLAGS of printf:
+
+(numero)	Representa o width do que vamos inserir
+			Se width < numero preenchemos com ' ' na esquerda
+-			Se d < 0 acrescentamos o sinal negativo atras
+0(numero)	Se width < numero preenchemos com 0 na esquerda
+#o			Representacao == 0d		(Octal)
+#x			Representacao == 0xd	(Hexadecimal)
+#X			Representacao == 0d	(Hexadecimal)
+' '			Adiciona um espaco se nao for inserir nenhum sinal
++			Coloca sempre o sinal correspondente
+
+Os sinais contam quando temos que considerar o width
